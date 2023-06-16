@@ -1,0 +1,392 @@
+{
+  "Footer.php": {
+    "Copyright": "© Copyright 2023",
+    "MadeBy": "Made by"
+  },
+  "GeneratePdf.php": {
+    "errors": {
+      "EmailNotSend": "Email not sent! Please try again later.",
+      "PdfNotGenerated": "An error occurred while generating the PDF! Please try again later."
+    },
+    "Footer": {
+      "Page": "Page"
+    },
+    "Main": {
+      "AdminSignature": "Administrator's Signature",
+      "BookRequests": "Book Requests",
+      "BookRequestsTable": {
+        "Author": "Author",
+        "Book": "Book",
+        "Editorial": "Publisher",
+        "Identifier": "Identifier",
+        "NotAvailable": "Not Available",
+        "Quantity": "Quantity"
+      },
+      "BooksRequests": "Identifier(s) of Requested Book(s)",
+      "DateAndTimeRequest": "Date and Time of Request",
+      "DeviceRequest": "Requested Device Identifier",
+      "DevicesRequests": "Devices Requests",
+      "DevicesRequestsTable": {
+        "Device": "Device",
+        "Identifier": "Identifier",
+        "NotAvailable": "Not Available",
+        "Quantity": "Quantity"
+      },
+      "Document": "Loan Receipt",
+      "Message": "Message",
+      "PickUpDate": "Pick-up Date",
+      "RequestNumber": "Request Number",
+      "ReturnDate": "Return Date",
+      "StudentEmail": "Student Email",
+      "StudentFullName": "Student Full Name",
+      "StudentSignature": "Student's Signature",
+      "TeacherSignature": "Teacher's Signature",
+      "UserEmail": "User Email",
+      "UserFullName": "User Full Name",
+      "Username": "Username"
+    }
+  },
+  "Header.php": {
+    "H1": {
+      "Welcome": "Welcome"
+    },
+    "Nav": {
+      "ContactTheAdministrator": "Contact the administrator",
+      "Logout": "Logout",
+      "Main": "Main",
+      "Messages": "Messages",
+      "Request": "Requests",
+      "Solicit": "Solicit",
+      "UsersControl": "User control"
+    }
+  },
+  "Index.php": {
+    "Buttons": {
+      "Close": "Close",
+      "Login": "Login",
+      "Reset": "Reset"
+    },
+    "Login": "Login",
+    "Password": "Password",
+    "ThrowModal": {
+      "AccountNotActivated": "Your account is disabled!",
+      "CatchError": "An error occurred! Please try again later.",
+      "Confirm": "Confirmation message",
+      "InvalidLogIn": "Invalid username and/or password."
+    },
+    "Username": "Username"
+  },
+  "Main.php": {
+    "Buttons": {
+      "Add": "Add",
+      "Close": "Close",
+      "Delete": "Delete",
+      "Edit": "Edit",
+      "GoBack": "Go back",
+      "Reset": "Reset"
+    },
+    "Books": {
+      "AddBook": {
+        "AddBooks": "Load books from CSV",
+        "AddNewBook": "Add Books",
+        "NewBookAuthor": "Book Author",
+        "NewBookEditorial": "Book Editorial",
+        "NewBookIdentifier": "Book Identifier",
+        "NewBookName": "Book Name",
+        "NewBookQuantity": "Book Quantity"
+      },
+      "Search": "Search Books",
+      "Table": {
+        "Author": "Author",
+        "Book": "Book",
+        "Edit": "Edit",
+        "EditModal": {
+          "Edit": "Edit",
+          "EditBookAuthor": "Book Author",
+          "EditBookEditorial": "Book Editorial",
+          "EditBookIdentifier": "Book Identifier",
+          "EditBookName": "Book Name",
+          "EditBookQuantity": "Book Quantity"
+        },
+        "Editorial": "Editorial",
+        "Identifier": "Identifier",
+        "NotAvailable": "Not available",
+        "Quantity": "Quantity"
+      }
+    },
+    "Devices": {
+      "AddDevice": {
+        "AddDevices": "Load devices from CSV",
+        "AddNewDevice": "Add Devices",
+        "NewDeviceDescription": "Device Description",
+        "NewDeviceIdentifier": "Device Identifier",
+        "NewDeviceName": "Device Name",
+        "NewDeviceQuantity": "Device Quantity"
+      },
+      "Search": "Search Devices",
+      "Table": {
+        "Description": "Description",
+        "Device": "Device",
+        "Edit": "Edit",
+        "EditModal": {
+          "Edit": "Edit",
+          "EditDeviceDescription": "Device Description",
+          "EditDeviceIdentifier": "Device Identifier",
+          "EditDeviceName": "Device Name",
+          "EditDeviceQuantity": "Device Quantity"
+        },
+        "Identifier": "Identifier",
+        "NotAvailable": "Not available",
+        "Quantity": "Quantity"
+      }
+    },
+    "H1": {
+      "Books": "Books",
+      "Devices": "Devices"
+    },
+    "ThrowModal": {
+      "BookAdded": "The book has been added successfully!",
+      "BookDeleted": "The book has been deleted successfully!",
+      "BookEdited": "The book has been edited successfully!",
+      "BookNotAdded": "The book was not added! Please try again later.",
+      "BookNotDeleted": "The book was not deleted! Please try again later.",
+      "BookNotEdited": "The book was not edited! Please try again later.",
+      "BookNotEditedDuplicateIdentifier": "The book was not edited! Duplicate identifier.",
+      "BookQuantityCantBeNegative": "The book quantity cannot be negative!",
+      "BooksAdded": "The books have been inserted successfully!",
+      "BooksNotAdded": "The books were not added! Please try again later.",
+      "DeviceAdded": "The device has been added successfully!",
+      "DeviceDeleted": "The device has been deleted successfully!",
+      "DeviceEdited": "The device has been edited successfully!",
+      "DeviceNotAdded": "The device was not added! Please try again later.",
+      "DeviceNotDeleted": "The device was not deleted! Please try again later.",
+      "DeviceNotEdited": "The device was not edited! Please try again later.",
+      "DeviceNotEditedDuplicateIdentifier": "The device was not edited! Duplicate identifier.",
+      "DeviceQuantityCantBeNegative": "The device quantity cannot be negative!",
+      "DevicesAdded": "The devices have been inserted successfully!",
+      "DevicesNotAdded": "The devices were not added! Please try again later.",
+      "DuplicateBookIdentifier": "The books were not added! Duplicate identifier.",
+      "DuplicateDeviceIdentifier": "The devices were not added! Duplicate identifier.",
+      "FileBadFormatted": "The file is not formatted correctly!",
+      "FileNotOpened": "The file could not be opened! Please try again later.",
+      "LoadBooksError": "An error occurred while loading the books! Please try again later.",
+      "LoadDevicesError": "An error occurred while loading the devices! Please try again later.",
+      "NoBooks": "No books available!",
+      "NoDevices": "No devices available!",
+      "Confirm": "Confirmation message"
+    },
+    "Title": "Main"
+  },
+  "Messages.php": {
+    "Buttons": {
+      "Close": "Close",
+      "Delete": "Delete",
+      "GoBack": "Go back"
+    },
+    "Card": {
+      "Message": "Message",
+      "Number": "Number",
+      "Request": "Request",
+      "UserEmail": "User Email",
+      "UserFullName": "User Full Name",
+      "Username": "Username"
+    },
+    "H1": {
+      "Messages": "Messages"
+    },
+    "Search": "Search messages",
+    "ThrowModal": {
+      "Confirm": "Confirmation",
+      "ConfirmDelete": "Are you sure you want to delete the message?",
+      "LoadMessagesError": "An error occurred while loading the messages! Please try again later.",
+      "MessageDeleted": "The message has been deleted successfully!",
+      "MessageNotDeleted": "The message was not deleted! Please try again later.",
+      "NoMessages": "No messages available!"
+    },
+    "Title": "Messages"
+  },
+  "Requests.php": {
+    "Buttons": {
+      "Close": "Close",
+      "Delete": "Delete",
+      "GoBack": "Go back"
+    },
+    "Card": {
+      "BooksRequests": "Identifier(s) of requested book(s)",
+      "DeviceRequest": "Requested device identifier",
+      "Message": "Message",
+      "Number": "Number",
+      "StudentEmail": "Student email",
+      "StudentFullName": "Student full name",
+      "UserEmail": "User email",
+      "UserFullName": "User full name",
+      "Username": "Username"
+    },
+    "H1": {
+      "Requests": "Requests"
+    },
+    "Search": "Search requests",
+    "ThrowModal": {
+      "Confirm": "Confirmation",
+      "ConfirmDelete": "Are you sure you want to delete the request?",
+      "LoadRequestsError": "An error occurred while loading the requests! Please try again later.",
+      "NoRequests": "No requests available!",
+      "RequestDeleted": "The request has been deleted successfully!",
+      "RequestNotDeleted": "The request was not deleted! Please try again later."
+    },
+    "Title": "Requests"
+  },
+  "sendMessages.php": {
+    "Buttons": {
+      "Close": "Close",
+      "GoBack": "Go back",
+      "Reset": "Reset",
+      "Send": "Send"
+    },
+    "Form": {
+      "Email": "Email",
+      "Select": {
+        "0": "Select",
+        "1": "Change username",
+        "2": "Change email",
+        "3": "Change password",
+        "4": "Other",
+        "Select": "Select"
+      },
+      "TextArea": "Message",
+      "Username": "Username",
+      "UserFullName": "Full Name"
+    },
+    "H1": {
+      "ContactTheAdministrator": "Contact the Administrator"
+    },
+    "InvalidFeedback": {
+      "Select": "Please select an option!",
+      "TextArea": "This field cannot be empty!"
+    },
+    "ThrowModal": {
+      "Confirm": "Confirmation",
+      "MessageNotSent": "The message was not sent! Please try again later.",
+      "MessageSent": "The message has been sent successfully!"
+    },
+    "Title": "Contact"
+  },
+  "sendRequests.php": {
+    "Buttons": {
+      "Close": "Close",
+      "GoBack": "Go back",
+      "Reset": "Reset",
+      "Send": "Send"
+    },
+    "Form": {
+      "BooksRequests": "Identifier(s) of Requested Book(s)",
+      "BooksRequestsExample": "ABC-123, ABC-123",
+      "DeviceRequest": "Requested Device Identifier",
+      "DeviceRequestsExample": "ABC-123",
+      "Email": "Email",
+      "StudentData": "Student Data",
+      "StudentEmail": "Student Email",
+      "StudentFullName": "Student Full Name",
+      "TeacherData": "Teacher Data",
+      "TextArea": "Message",
+      "Username": "Username",
+      "UserFullName": "User Full Name"
+    },
+    "H1": {
+      "Solicit": "Make a Request"
+    },
+    "InvalidFeedback": {
+      "Email": "Invalid email!",
+      "Format": "Invalid format!",
+      "TextArea": "Field cannot be empty!",
+      "UserFullName": "Invalid name and surname!",
+      "Username": "Invalid username!"
+    },
+    "ThrowModal": {
+      "Confirm": "Confirmation",
+      "RequestNotSent": "The request was not sent! Please try again later.",
+      "RequestSent": "The request has been sent successfully!"
+    },
+    "Title": "Request"
+  },
+  "UsersControl.php": {
+    "Buttons": {
+      "Activate": "Activate",
+      "Close": "Close",
+      "Create": "Create",
+      "Deactivate": "Deactivate",
+      "Delete": "Delete",
+      "Edit": "Edit",
+      "GoBack": "Go back",
+      "Reset": "Reset"
+    },
+    "Form": {
+      "ConfirmPassword": "Confirm Password",
+      "Email": "Email",
+      "Password": "Password",
+      "Ul": {
+        "LowerCaseLetters": "Lowercase letters",
+        "MinLength": "Minimum 8 characters",
+        "Numbers": "Numbers",
+        "UpperCaseLetters": "Uppercase letters"
+      },
+      "UserFullName": "User Full Name",
+      "Username": "Username"
+    },
+    "H1": {
+      "UsersControl": "User Control"
+    },
+    "InvalidFeedback": {
+      "ConfirmPassword": "Passwords do not match!",
+      "Email": "Invalid email!",
+      "UserFullName": "Invalid full name!",
+      "Username": "Invalid username!"
+    },
+    "Search": "Search",
+    "Table": {
+      "Edit": "Edit",
+      "EditModal": {
+        "Edit": "Edit",
+        "EditUserEmail": "Email",
+        "EditUserFullName": "User Full Name",
+        "EditUsername": "Username",
+        "NewPassword": "New Password"
+      },
+      "Email": "Email",
+      "Number": "Number",
+      "Password": "Password",
+      "State": "State",
+      "States": {
+        "Activated": "Activated",
+        "Deactivated": "Deactivated"
+      },
+      "UserFullName": "User Full Name",
+      "Username": "Username"
+    },
+    "ThrowModal": {
+      "AccountActivated": "The account has been activated successfully!",
+      "AccountDeactivated": "The account has been deactivated successfully!",
+      "AccountNotActivated": "The account was not activated! Please try again later.",
+      "AccountNotDeactivated": "The account was not deactivated! Please try again later.",
+      "Confirm": "Confirmation",
+      "LoadUsersError": "An error occurred while loading the users! Please try again later.",
+      "NoUsers": "No users available!",
+      "UserCreatedAndEmailSent": "The user has been created successfully!\nEmail sent.",
+      "UserCreatedOnly": "The user has been created successfully!\nEmail not sent.",
+      "UserDeleted": "The user has been deleted successfully!",
+      "UserEditedAndEmailSent": "The user has been edited successfully!\nEmail sent.",
+      "UserEditedOnly": "The user has been edited successfully!\nEmail not sent.",
+      "UserEmailTaken": "The email is already in use.",
+      "UserFullNameTaken": "The user full name is already in use.",
+      "UserNotCreated": "The user was not created! Please try again later.",
+      "UserNotDeleted": "The user was not deleted! Please try again later.",
+      "UserNotEdited": "The user was not edited! Please try again later.",
+      "UsernameTaken": "The username is already in use."
+    },
+    "Title": "User Control",
+    "Ul": {
+      "RegisterNewUser": "Register new user",
+      "ShowUsers": "Show users"
+    }
+  }
+}

@@ -1,0 +1,265 @@
+// IMPORTAR FUENTE.
+@font-face {
+  font-family: "MyFont";
+  src: url("../../assets/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+// VARIABLES.
+$color1: #164db3;
+$color2: #1e3474;
+$color3: #181d3a;
+$color4: #141414;
+$color5: #000;
+// TODO.
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "MyFont", sans-serif;
+
+  // SELECCIONAR TEXTO.
+  &::selection {
+    background-color: rgba(22, 77, 179, 0.3);
+  }
+}
+// BODY.
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $color4;
+  // background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+// HEADER.
+// Clase active.
+.navbar-nav .nav-link.active {
+  position: relative;
+  color: $color5;
+}
+.navbar-nav .nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: $color1;
+  animation: underline 0.3s ease-in-out forwards;
+}
+@keyframes underline {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+// INDEX.
+// Logo.
+#logo {
+  color: $color1;
+  text-shadow: 2px 2px 0px #ffffff, 5px 4px 0px rgba(0, 0, 0, 0.15),
+    2px 2px 2px rgba(0, 0, 0, 0);
+}
+// INPUTS
+.inputContainer {
+  position: relative;
+
+  input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #6c757d;
+    padding: 5px 0;
+    background-color: transparent;
+    outline: none;
+    position: relative;
+    &:focus ~ .label {
+      top: -20px;
+      color: #333;
+    }
+    &:valid ~ .label {
+      top: -20px;
+      color: #333;
+    }
+    &:focus ~ .underline {
+      -webkit-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+    &:valid ~ .underline {
+      -webkit-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+  }
+  .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #6c757d;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    pointer-events: none;
+  }
+  .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #333;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+}
+.iconRight {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+.cursorPointer {
+  img {
+    cursor: pointer;
+  }
+}
+// Cookies.
+#cookieBanner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  -webkit-filter: none; // Safari 6.0 - 9.0.
+  filter: none;
+}
+.blurBackground {
+  -webkit-filter: blur(5px); // Safari 6.0 - 9.0.
+  filter: blur(5px);
+}
+// USERSCONTROL.
+ul#usersOption {
+  li {
+    color: $color5;
+    width: 15rem;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+.valid {
+  color: var(--bs-success);
+}
+.invalid {
+  color: var(--bs-danger-text);
+}
+// Clases generales.
+// Paginación.
+ul.pagination {
+  li {
+    cursor: pointer;
+  }
+  li.disabled {
+    cursor: default;
+    pointer-events: none;
+    /* Deshabilitar el evento del ratón */
+  }
+}
+// BOTONES.
+input.buttonStyle,
+button.buttonStyle {
+  padding: 8px 16px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 0 0 $color5;
+  position: relative;
+
+  &:active {
+    top: 3px;
+    box-shadow: none;
+  }
+}
+// ASTERISCO PARA LOS INPUTS.
+label {
+  &.required {
+    &::after {
+      content: " *";
+      color: red;
+    }
+  }
+}
+// TEXTAREA.
+textarea {
+  resize: none;
+}
+// PARA QUITAR EL OJO DE VER CONTRASEÑA DEL EDGE.
+input[type="password"] {
+  &::-ms-reveal {
+    display: none;
+  }
+  &::-ms-clear {
+    display: none;
+  }
+}
+// ENLACES.
+a {
+  &:link {
+    color: $color5;
+  }
+  &:hover {
+    color: $color5;
+  }
+  &:visited {
+    color: $color5;
+  }
+}
+.highlight {
+  background-color: $color1;
+  font-weight: bold;
+}
+// LOADER.
+@keyframes spinner {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+#loader {
+  width: 50px;
+  height: 50px;
+  display: grid;
+  border: 3px solid $color5;
+  border-radius: 50%;
+  border-right-color: $color1;
+  animation: spinner 1s infinite linear;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  &::before {
+    content: "";
+    grid-area: 1/1;
+    margin: 2px;
+    border: inherit;
+    border-radius: 50%;
+    animation: spinner 2s infinite;
+  }
+  &::after {
+    content: "";
+    grid-area: 1/1;
+    margin: 2px;
+    border: inherit;
+    border-radius: 50%;
+    animation: spinner 2s infinite;
+    margin: 8px;
+    animation-duration: 3s;
+  }
+}

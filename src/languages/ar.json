@@ -1,0 +1,392 @@
+{
+  "Footer.php": {
+    "Copyright": "حقوق النشر © 2023",
+    "MadeBy": "صنع بواسطة"
+  },
+  "GeneratePdf.php": {
+    "errors": {
+      "EmailNotSend": "لم يتم إرسال البريد الإلكتروني! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "PdfNotGenerated": "حدث خطأ أثناء إنشاء ملف PDF! يُرجى المحاولة مرة أخرى في وقت لاحق."
+    },
+    "Footer": {
+      "Page": "صفحة"
+    },
+    "Main": {
+      "AdminSignature": "توقيع المشرف",
+      "BookRequests": "الكتب المطلوبة",
+      "BookRequestsTable": {
+        "Author": "المؤلف",
+        "Book": "الكتاب",
+        "Editorial": "المحرر",
+        "Identifier": "المعرف",
+        "NotAvailable": "غير متوفر",
+        "Quantity": "الكمية"
+      },
+      "BooksRequests": "معرف/معرفات الكتاب/الكتب المطلوبة",
+      "DateAndTimeRequest": "تاريخ ووقت الطلب",
+      "DeviceRequest": "معرف الجهاز المطلوب",
+      "DevicesRequests": "الأجهزة المطلوبة",
+      "DevicesRequestsTable": {
+        "Device": "الجهاز",
+        "Identifier": "المعرف",
+        "NotAvailable": "غير متوفر",
+        "Quantity": "الكمية"
+      },
+      "Document": "إيصال الإعارة",
+      "Message": "رسالة",
+      "PickUpDate": "تاريخ الاستلام",
+      "RequestNumber": "رقم الطلب",
+      "ReturnDate": "تاريخ الإرجاع",
+      "StudentEmail": "بريد الطالب الإلكتروني",
+      "StudentFullName": "اسم الطالب الكامل",
+      "StudentSignature": "توقيع الطالب",
+      "TeacherSignature": "توقيع المعلم/المعلمة",
+      "UserEmail": "بريد المستخدم الإلكتروني",
+      "UserFullName": "اسم المستخدم الكامل",
+      "Username": "اسم المستخدم"
+    }
+  },
+  "Header.php": {
+    "H1": {
+      "Welcome": "مرحبًا"
+    },
+    "Nav": {
+      "ContactTheAdministrator": "الاتصال بالمسؤول",
+      "Logout": "تسجيل الخروج",
+      "Main": "الرئيسية",
+      "Messages": "الرسائل",
+      "Request": "الطلبات",
+      "Solicit": "طلب",
+      "UsersControl": "ضبط المستخدمين"
+    }
+  },
+  "Index.php": {
+    "Buttons": {
+      "Close": "إغلاق",
+      "Login": "تسجيل الدخول",
+      "Reset": "إعادة تعيين"
+    },
+    "Login": "تسجيل الدخول",
+    "Password": "كلمة المرور",
+    "ThrowModal": {
+      "AccountNotActivated": "حسابك غير مفعّل!",
+      "CatchError": "حدث خطأ! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "Confirm": "رسالة تأكيد",
+      "InvalidLogIn": "اسم المستخدم و/أو كلمة المرور غير صحيحة."
+    },
+    "Username": "اسم المستخدم"
+  },
+  "Main.php": {
+    "Buttons": {
+      "Add": "إضافة",
+      "Close": "إغلاق",
+      "Delete": "حذف",
+      "Edit": "تعديل",
+      "GoBack": "العودة",
+      "Reset": "إعادة تعيين"
+    },
+    "Books": {
+      "AddBook": {
+        "AddBooks": "تحميل الكتب من ملف CSV",
+        "AddNewBook": "إضافة كتب",
+        "NewBookAuthor": "مؤلف الكتاب",
+        "NewBookEditorial": "دار النشر",
+        "NewBookIdentifier": "مُعرف الكتاب",
+        "NewBookName": "اسم الكتاب",
+        "NewBookQuantity": "كمية الكتاب"
+      },
+      "Search": "البحث عن الكتب",
+      "Table": {
+        "Author": "المؤلف",
+        "Book": "الكتاب",
+        "Edit": "تعديل",
+        "EditModal": {
+          "Edit": "تعديل",
+          "EditBookAuthor": "مؤلف الكتاب",
+          "EditBookEditorial": "دار النشر",
+          "EditBookIdentifier": "مُعرف الكتاب",
+          "EditBookName": "اسم الكتاب",
+          "EditBookQuantity": "كمية الكتاب"
+        },
+        "Editorial": "دار النشر",
+        "Identifier": "مُعرف",
+        "NotAvailable": "غير متاح",
+        "Quantity": "كمية"
+      }
+    },
+    "Devices": {
+      "AddDevice": {
+        "AddDevices": "تحميل الأجهزة من ملف CSV",
+        "AddNewDevice": "إضافة أجهزة",
+        "NewDeviceDescription": "وصف الجهاز",
+        "NewDeviceIdentifier": "مُعرف الجهاز",
+        "NewDeviceName": "اسم الجهاز",
+        "NewDeviceQuantity": "كمية الجهاز"
+      },
+      "Search": "البحث عن الأجهزة",
+      "Table": {
+        "Description": "الوصف",
+        "Device": "الجهاز",
+        "Edit": "تعديل",
+        "EditModal": {
+          "Edit": "تعديل",
+          "EditDeviceDescription": "وصف الجهاز",
+          "EditDeviceIdentifier": "مُعرف الجهاز",
+          "EditDeviceName": "اسم الجهاز",
+          "EditDeviceQuantity": "كمية الجهاز"
+        },
+        "Identifier": "مُعرف",
+        "NotAvailable": "غير متاح",
+        "Quantity": "كمية"
+      }
+    },
+    "H1": {
+      "Books": "الكتب",
+      "Devices": "الأجهزة"
+    },
+    "ThrowModal": {
+      "BookAdded": "تمت إضافة الكتاب بنجاح!",
+      "BookDeleted": "تم حذف الكتاب بنجاح!",
+      "BookEdited": "تم تعديل الكتاب بنجاح!",
+      "BookNotAdded": "لم يتم إضافة الكتاب! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "BookNotDeleted": "لم يتم حذف الكتاب! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "BookNotEdited": "لم يتم تعديل الكتاب! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "BookNotEditedDuplicateIdentifier": "لم يتم تعديل الكتاب! مُعرف مُكرر.",
+      "BookQuantityCantBeNegative": "كمية الكتاب لا يمكن أن تكون سالبة!",
+      "BooksAdded": "تم إدخال الكتب بنجاح!",
+      "BooksNotAdded": "لم تتم إضافة الكتب! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "DeviceAdded": "تمت إضافة الجهاز بنجاح!",
+      "DeviceDeleted": "تم حذف الجهاز بنجاح!",
+      "DeviceEdited": "تم تعديل الجهاز بنجاح!",
+      "DeviceNotAdded": "لم يتم إضافة الجهاز! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "DeviceNotDeleted": "لم يتم حذف الجهاز! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "DeviceNotEdited": "لم يتم تعديل الجهاز! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "DeviceNotEditedDuplicateIdentifier": "لم يتم تعديل الجهاز! مُعرف مُكرر.",
+      "DeviceQuantityCantBeNegative": "كمية الجهاز لا يمكن أن تكون سالبة!",
+      "DevicesAdded": "تم إدخال الأجهزة بنجاح!",
+      "DevicesNotAdded": "لم تتم إضافة الأجهزة! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "DuplicateBookIdentifier": "لم تتم إضافة الكتب! مُعرف مُكرر.",
+      "DuplicateDeviceIdentifier": "لم تتم إضافة الأجهزة! مُعرف مُكرر.",
+      "FileBadFormatted": "الملف غير مهيأ بشكل صحيح!",
+      "FileNotOpened": "تعذر فتح الملف! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "LoadBooksError": "حدث خطأ أثناء تحميل الكتب! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "LoadDevicesError": "حدث خطأ أثناء تحميل الأجهزة! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "NoBooks": "لا توجد كتب!",
+      "NoDevices": "لا توجد أجهزة!",
+      "Confirm": "رسالة تأكيد"
+    },
+    "Title": "الرئيسية"
+  },
+  "Messages.php": {
+    "Buttons": {
+      "Close": "إغلاق",
+      "Delete": "حذف",
+      "GoBack": "رجوع"
+    },
+    "Card": {
+      "Message": "رسالة",
+      "Number": "رقم",
+      "Request": "طلب",
+      "UserEmail": "بريد المستخدم الإلكتروني",
+      "UserFullName": "اسم المستخدم الكامل",
+      "Username": "اسم المستخدم"
+    },
+    "H1": {
+      "Messages": "الرسائل"
+    },
+    "Search": "بحث عن الرسائل",
+    "ThrowModal": {
+      "Confirm": "تأكيد",
+      "ConfirmDelete": "هل أنت متأكد أنك تريد حذف الرسالة؟",
+      "LoadMessagesError": "حدث خطأ أثناء تحميل الرسائل! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "MessageDeleted": "تم حذف الرسالة بنجاح!",
+      "MessageNotDeleted": "لم يتم حذف الرسالة! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "NoMessages": "لا توجد رسائل!"
+    },
+    "Title": "الرسائل"
+  },
+  "Requests.php": {
+    "Buttons": {
+      "Close": "إغلاق",
+      "Delete": "حذف",
+      "GoBack": "رجوع"
+    },
+    "Card": {
+      "BooksRequests": "معرف/معرفات الكتاب/الكتب المطلوبة",
+      "DeviceRequest": "معرف الجهاز المطلوب",
+      "Message": "رسالة",
+      "Number": "رقم",
+      "StudentEmail": "بريد الطالب الإلكتروني",
+      "StudentFullName": "اسم الطالب الكامل",
+      "UserEmail": "بريد المستخدم الإلكتروني",
+      "UserFullName": "اسم المستخدم الكامل",
+      "Username": "اسم المستخدم"
+    },
+    "H1": {
+      "Requests": "الطلبات"
+    },
+    "Search": "بحث عن الطلبات",
+    "ThrowModal": {
+      "Confirm": "تأكيد",
+      "ConfirmDelete": "هل أنت متأكد أنك تريد حذف الطلب؟",
+      "LoadRequestsError": "حدث خطأ أثناء تحميل الطلبات! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "NoRequests": "لا توجد طلبات!",
+      "RequestDeleted": "تم حذف الطلب بنجاح!",
+      "RequestNotDeleted": "لم يتم حذف الطلب! يُرجى المحاولة مرة أخرى في وقت لاحق."
+    },
+    "Title": "الطلبات"
+  },
+  "sendMessages.php": {
+    "Buttons": {
+      "Close": "إغلاق",
+      "GoBack": "رجوع",
+      "Reset": "إعادة تعيين",
+      "Send": "إرسال"
+    },
+    "Form": {
+      "Email": "البريد الإلكتروني",
+      "Select": {
+        "0": "اختر",
+        "1": "تغيير اسم المستخدم",
+        "2": "تغيير البريد",
+        "3": "تغيير كلمة المرور",
+        "4": "آخر",
+        "Select": "اختر"
+      },
+      "TextArea": "الرسالة",
+      "Username": "اسم المستخدم",
+      "UserFullName": "الاسم الكامل"
+    },
+    "H1": {
+      "ContactTheAdministrator": "الاتصال بالمسؤول"
+    },
+    "InvalidFeedback": {
+      "Select": "الرجاء تحديد خيار!",
+      "TextArea": "الحقل لا يمكن أن يكون فارغًا!"
+    },
+    "ThrowModal": {
+      "Confirm": "تأكيد",
+      "MessageNotSent": "لم يتم إرسال الرسالة! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "MessageSent": "تم إرسال الرسالة بنجاح!"
+    },
+    "Title": "الاتصال"
+  },
+  "sendRequests.php": {
+    "Buttons": {
+      "Close": "إغلاق",
+      "GoBack": "رجوع",
+      "Reset": "إعادة تعيين",
+      "Send": "إرسال"
+    },
+    "Form": {
+      "BooksRequests": "معرف/معرفات الكتاب/الكتب المطلوبة",
+      "BooksRequestsExample": "ABC-123، ABC-123",
+      "DeviceRequest": "معرف الجهاز المطلوب",
+      "DeviceRequestsExample": "ABC-123",
+      "Email": "البريد الإلكتروني",
+      "StudentData": "بيانات الطالب",
+      "StudentEmail": "بريد الطالب الإلكتروني",
+      "StudentFullName": "اسم الطالب الكامل",
+      "TeacherData": "بيانات المعلم",
+      "TextArea": "رسالة",
+      "Username": "اسم المستخدم",
+      "UserFullName": "الاسم الكامل"
+    },
+    "H1": {
+      "Solicit": "تقديم طلب"
+    },
+    "InvalidFeedback": {
+      "Email": "البريد الإلكتروني غير صالح!",
+      "Format": "تنسيق غير صالح!",
+      "TextArea": "الحقل لا يمكن أن يكون فارغًا!",
+      "UserFullName": "اسم وأسماء خاطئة!",
+      "Username": "اسم المستخدم غير صالح!"
+    },
+    "ThrowModal": {
+      "Confirm": "تأكيد",
+      "RequestNotSent": "لم يتم إرسال الطلب! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "RequestSent": "تم إرسال الطلب بنجاح!"
+    },
+    "Title": "الطلب"
+  },
+  "UsersControl.php": {
+    "Buttons": {
+      "Activate": "تفعيل",
+      "Close": "إغلاق",
+      "Create": "إنشاء",
+      "Deactivate": "تعطيل",
+      "Delete": "حذف",
+      "Edit": "تحرير",
+      "GoBack": "رجوع",
+      "Reset": "إعادة تعيين"
+    },
+    "Form": {
+      "ConfirmPassword": "تأكيد كلمة المرور",
+      "Email": "البريد الإلكتروني",
+      "Password": "كلمة المرور",
+      "Ul": {
+        "LowerCaseLetters": "حروف صغيرة",
+        "MinLength": "الحد الأدنى 8 أحرف",
+        "Numbers": "أرقام",
+        "UpperCaseLetters": "حروف كبيرة"
+      },
+      "UserFullName": "اسم ولقب المستخدم",
+      "Username": "اسم المستخدم"
+    },
+    "H1": {
+      "UsersControl": "ضبط المستخدمين"
+    },
+    "InvalidFeedback": {
+      "ConfirmPassword": "كلمات المرور غير متطابقة!",
+      "Email": "بريد إلكتروني غير صالح!",
+      "UserFullName": "اسم ولقب غير صالحين!",
+      "Username": "اسم مستخدم غير صالح!"
+    },
+    "Search": "بحث",
+    "Table": {
+      "Edit": "تحرير",
+      "EditModal": {
+        "Edit": "تحرير",
+        "EditUserEmail": "البريد الإلكتروني",
+        "EditUserFullName": "اسم ولقب المستخدم",
+        "EditUsername": "اسم المستخدم",
+        "NewPassword": "كلمة مرور جديدة"
+      },
+      "Email": "البريد الإلكتروني",
+      "Number": "رقم",
+      "Password": "كلمة المرور",
+      "State": "الحالة",
+      "States": {
+        "Activated": "مفعلة",
+        "Deactivated": "معطلة"
+      },
+      "UserFullName": "اسم ولقب المستخدم",
+      "Username": "اسم المستخدم"
+    },
+    "ThrowModal": {
+      "AccountActivated": "تم تفعيل الحساب بنجاح!",
+      "AccountDeactivated": "تم تعطيل الحساب بنجاح!",
+      "AccountNotActivated": "لم يتم تفعيل الحساب! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "AccountNotDeactivated": "لم يتم تعطيل الحساب! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "Confirm": "تأكيد",
+      "LoadUsersError": "حدث خطأ أثناء تحميل المستخدمين! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "NoUsers": "لا يوجد مستخدمون!",
+      "UserCreatedAndEmailSent": "تم إنشاء المستخدم بنجاح!\nتم إرسال البريد الإلكتروني.",
+      "UserCreatedOnly": "تم إنشاء المستخدم بنجاح!\nلم يتم إرسال البريد الإلكتروني.",
+      "UserDeleted": "تم حذف المستخدم بنجاح!",
+      "UserEditedAndEmailSent": "تم تعديل المستخدم بنجاح!\nتم إرسال البريد الإلكتروني.",
+      "UserEditedOnly": "تم تعديل المستخدم بنجاح!\nلم يتم إرسال البريد الإلكتروني.",
+      "UserEmailTaken": "عنوان البريد الإلكتروني مستخدم بالفعل.",
+      "UserFullNameTaken": "اسم ولقب المستخدم مستخدمة بالفعل.",
+      "UserNotCreated": "لم يتم إنشاء المستخدم! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "UserNotDeleted": "لم يتم حذف المستخدم! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "UserNotEdited": "لم يتم تعديل المستخدم! يُرجى المحاولة مرة أخرى في وقت لاحق.",
+      "UsernameTaken": "اسم المستخدم مستخدم بالفعل."
+    },
+    "Title": "ضبط المستخدمين",
+    "Ul": {
+      "RegisterNewUser": "تسجيل مستخدم جديد",
+      "ShowUsers": "عرض المستخدمين"
+    }
+  }
+}

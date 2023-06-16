@@ -1,0 +1,392 @@
+{
+  "Footer.php": {
+    "Copyright": "© Droits d'auteur 2023",
+    "MadeBy": "Réalisé par"
+  },
+  "GeneratePdf.php": {
+    "errors": {
+      "EmailNotSend": "Le courriel n'a pas été envoyé ! Veuillez réessayer ultérieurement.",
+      "PdfNotGenerated": "Une erreur s'est produite lors de la génération du PDF ! Veuillez réessayer ultérieurement."
+    },
+    "Footer": {
+      "Page": "Page"
+    },
+    "Main": {
+      "AdminSignature": "Signature de l'administrateur",
+      "BookRequests": "Demandes de livres",
+      "BookRequestsTable": {
+        "Author": "Auteur",
+        "Book": "Livre",
+        "Editorial": "Éditeur",
+        "Identifier": "Identifiant",
+        "NotAvailable": "Non disponible",
+        "Quantity": "Quantité"
+      },
+      "BooksRequests": "Identifiant(s) du(des) livre(s) demandé(s)",
+      "DateAndTimeRequest": "Date et heure de la demande",
+      "DeviceRequest": "Identifiant de l'appareil demandé",
+      "DevicesRequests": "Appareils demandés",
+      "DevicesRequestsTable": {
+        "Device": "Appareil",
+        "Identifier": "Identifiant",
+        "NotAvailable": "Non disponible",
+        "Quantity": "Quantité"
+      },
+      "Document": "Justificatif de prêt",
+      "Message": "Message",
+      "PickUpDate": "Date de récupération",
+      "RequestNumber": "Numéro de demande",
+      "ReturnDate": "Date de retour",
+      "StudentEmail": "Courriel de l'étudiant",
+      "StudentFullName": "Nom et prénom de l'étudiant",
+      "StudentSignature": "Signature de l'étudiant",
+      "TeacherSignature": "Signature de l'enseignant(e)",
+      "UserEmail": "Courriel de l'utilisateur",
+      "UserFullName": "Nom et prénom de l'utilisateur",
+      "Username": "Nom d'utilisateur"
+    }
+  },
+  "Header.php": {
+    "H1": {
+      "Welcome": "Bienvenue"
+    },
+    "Nav": {
+      "ContactTheAdministrator": "Contacter l'administrateur",
+      "Logout": "Déconnexion",
+      "Main": "Principal",
+      "Messages": "Messages",
+      "Request": "Demandes",
+      "Solicit": "Demander",
+      "UsersControl": "Contrôle des utilisateurs"
+    }
+  },
+  "Index.php": {
+    "Buttons": {
+      "Close": "Fermer",
+      "Login": "Se connecter",
+      "Reset": "Réinitialiser"
+    },
+    "Login": "Connexion",
+    "Password": "Mot de passe",
+    "ThrowModal": {
+      "AccountNotActivated": "Votre compte est désactivé !",
+      "CatchError": "Une erreur s'est produite ! Veuillez réessayer ultérieurement.",
+      "Confirm": "Message de confirmation",
+      "InvalidLogIn": "Nom d'utilisateur et/ou mot de passe incorrect(s)."
+    },
+    "Username": "Nom d'utilisateur"
+  },
+  "Main.php": {
+    "Buttons": {
+      "Add": "Ajouter",
+      "Close": "Fermer",
+      "Delete": "Supprimer",
+      "Edit": "Modifier",
+      "GoBack": "Retour",
+      "Reset": "Réinitialiser"
+    },
+    "Books": {
+      "AddBook": {
+        "AddBooks": "Importer des livres depuis un fichier CSV",
+        "AddNewBook": "Ajouter des livres",
+        "NewBookAuthor": "Auteur du livre",
+        "NewBookEditorial": "Éditeur du livre",
+        "NewBookIdentifier": "Identifiant du livre",
+        "NewBookName": "Nom du livre",
+        "NewBookQuantity": "Quantité du livre"
+      },
+      "Search": "Rechercher des livres",
+      "Table": {
+        "Author": "Auteur",
+        "Book": "Livre",
+        "Edit": "Modifier",
+        "EditModal": {
+          "Edit": "Modifier",
+          "EditBookAuthor": "Auteur du livre",
+          "EditBookEditorial": "Éditeur du livre",
+          "EditBookIdentifier": "Identifiant du livre",
+          "EditBookName": "Nom du livre",
+          "EditBookQuantity": "Quantité du livre"
+        },
+        "Editorial": "Éditeur",
+        "Identifier": "Identifiant",
+        "NotAvailable": "Non disponible",
+        "Quantity": "Quantité"
+      }
+    },
+    "Devices": {
+      "AddDevice": {
+        "AddDevices": "Importer des appareils depuis un fichier CSV",
+        "AddNewDevice": "Ajouter des appareils",
+        "NewDeviceDescription": "Description de l'appareil",
+        "NewDeviceIdentifier": "Identifiant de l'appareil",
+        "NewDeviceName": "Nom de l'appareil",
+        "NewDeviceQuantity": "Quantité de l'appareil"
+      },
+      "Search": "Rechercher des appareils",
+      "Table": {
+        "Description": "Description",
+        "Device": "Appareil",
+        "Edit": "Modifier",
+        "EditModal": {
+          "Edit": "Modifier",
+          "EditDeviceDescription": "Description de l'appareil",
+          "EditDeviceIdentifier": "Identifiant de l'appareil",
+          "EditDeviceName": "Nom de l'appareil",
+          "EditDeviceQuantity": "Quantité de l'appareil"
+        },
+        "Identifier": "Identifiant",
+        "NotAvailable": "Non disponible",
+        "Quantity": "Quantité"
+      }
+    },
+    "H1": {
+      "Books": "Livres",
+      "Devices": "Appareils"
+    },
+    "ThrowModal": {
+      "BookAdded": "Le livre a été ajouté avec succès !",
+      "BookDeleted": "Le livre a été supprimé avec succès !",
+      "BookEdited": "Le livre a été modifié avec succès !",
+      "BookNotAdded": "Le livre n'a pas été ajouté ! Veuillez réessayer ultérieurement.",
+      "BookNotDeleted": "Le livre n'a pas été supprimé ! Veuillez réessayer ultérieurement.",
+      "BookNotEdited": "Le livre n'a pas été modifié ! Veuillez réessayer ultérieurement.",
+      "BookNotEditedDuplicateIdentifier": "Le livre n'a pas été modifié ! Identifiant en double.",
+      "BookQuantityCantBeNegative": "La quantité du livre ne peut pas être négative !",
+      "BooksAdded": "Les livres ont été insérés avec succès !",
+      "BooksNotAdded": "Les livres n'ont pas été ajoutés ! Veuillez réessayer ultérieurement.",
+      "DeviceAdded": "L'appareil a été ajouté avec succès !",
+      "DeviceDeleted": "L'appareil a été supprimé avec succès !",
+      "DeviceEdited": "L'appareil a été modifié avec succès !",
+      "DeviceNotAdded": "L'appareil n'a pas été ajouté ! Veuillez réessayer ultérieurement.",
+      "DeviceNotDeleted": "L'appareil n'a pas été supprimé ! Veuillez réessayer ultérieurement.",
+      "DeviceNotEdited": "L'appareil n'a pas été modifié ! Veuillez réessayer ultérieurement.",
+      "DeviceNotEditedDuplicateIdentifier": "L'appareil n'a pas été modifié ! Identifiant en double.",
+      "DeviceQuantityCantBeNegative": "La quantité de l'appareil ne peut pas être négative !",
+      "DevicesAdded": "Les appareils ont été insérés avec succès !",
+      "DevicesNotAdded": "Les appareils n'ont pas été ajoutés ! Veuillez réessayer ultérieurement.",
+      "DuplicateBookIdentifier": "Les livres n'ont pas été ajoutés ! Identifiant en double.",
+      "DuplicateDeviceIdentifier": "Les appareils n'ont pas été ajoutés ! Identifiant en double.",
+      "FileBadFormatted": "Le fichier n'est pas formaté correctement !",
+      "FileNotOpened": "Le fichier n'a pas pu être ouvert ! Veuillez réessayer ultérieurement.",
+      "LoadBooksError": "Une erreur s'est produite lors du chargement des livres ! Veuillez réessayer ultérieurement.",
+      "LoadDevicesError": "Une erreur s'est produite lors du chargement des appareils ! Veuillez réessayer ultérieurement.",
+      "NoBooks": "Aucun livre disponible !",
+      "NoDevices": "Aucun appareil disponible !",
+      "Confirm": "Message de confirmation"
+    },
+    "Title": "Principal"
+  },
+  "Messages.php": {
+    "Buttons": {
+      "Close": "Fermer",
+      "Delete": "Supprimer",
+      "GoBack": "Retour"
+    },
+    "Card": {
+      "Message": "Message",
+      "Number": "Numéro",
+      "Request": "Demande",
+      "UserEmail": "Adresse e-mail de l'utilisateur",
+      "UserFullName": "Nom complet de l'utilisateur",
+      "Username": "Nom d'utilisateur"
+    },
+    "H1": {
+      "Messages": "Messages"
+    },
+    "Search": "Rechercher des messages",
+    "ThrowModal": {
+      "Confirm": "Confirmation",
+      "ConfirmDelete": "Êtes-vous sûr de vouloir supprimer le message ?",
+      "LoadMessagesError": "Une erreur s'est produite lors du chargement des messages ! Veuillez réessayer ultérieurement.",
+      "MessageDeleted": "Le message a été supprimé avec succès !",
+      "MessageNotDeleted": "Le message n'a pas été supprimé ! Veuillez réessayer ultérieurement.",
+      "NoMessages": "Aucun message !"
+    },
+    "Title": "Messages"
+  },
+  "Requests.php": {
+    "Buttons": {
+      "Close": "Fermer",
+      "Delete": "Supprimer",
+      "GoBack": "Retour"
+    },
+    "Card": {
+      "BooksRequests": "Identifiant(s) du(des) livre(s) demandé(s)",
+      "DeviceRequest": "Identifiant de l'appareil demandé",
+      "Message": "Message",
+      "Number": "Numéro",
+      "StudentEmail": "Courriel de l'étudiant",
+      "StudentFullName": "Nom et prénom de l'étudiant",
+      "UserEmail": "Courriel de l'utilisateur",
+      "UserFullName": "Nom et prénom de l'utilisateur",
+      "Username": "Nom d'utilisateur"
+    },
+    "H1": {
+      "Requests": "Demandes"
+    },
+    "Search": "Rechercher des demandes",
+    "ThrowModal": {
+      "Confirm": "Confirmation",
+      "ConfirmDelete": "Êtes-vous sûr de vouloir supprimer la demande ?",
+      "LoadRequestsError": "Une erreur s'est produite lors du chargement des demandes ! Veuillez réessayer ultérieurement.",
+      "NoRequests": "Aucune demande !",
+      "RequestDeleted": "La demande a été supprimée avec succès !",
+      "RequestNotDeleted": "La demande n'a pas été supprimée ! Veuillez réessayer ultérieurement."
+    },
+    "Title": "Demandes"
+  },
+  "sendMessages.php": {
+    "Buttons": {
+      "Close": "Fermer",
+      "GoBack": "Retour",
+      "Reset": "Réinitialiser",
+      "Send": "Envoyer"
+    },
+    "Form": {
+      "Email": "Adresse e-mail",
+      "Select": {
+        "0": "Sélectionner",
+        "1": "Changer de nom d'utilisateur",
+        "2": "Changer d'adresse e-mail",
+        "3": "Changer de mot de passe",
+        "4": "Autre",
+        "Select": "Sélectionner"
+      },
+      "TextArea": "Message",
+      "Username": "Nom d'utilisateur",
+      "UserFullName": "Nom complet"
+    },
+    "H1": {
+      "ContactTheAdministrator": "Contacter l'administrateur"
+    },
+    "InvalidFeedback": {
+      "Select": "Veuillez sélectionner une option !",
+      "TextArea": "Ce champ ne peut pas être vide !"
+    },
+    "ThrowModal": {
+      "Confirm": "Confirmation",
+      "MessageNotSent": "Le message n'a pas été envoyé ! Veuillez réessayer ultérieurement.",
+      "MessageSent": "Le message a été envoyé avec succès !"
+    },
+    "Title": "Contact"
+  },
+  "sendRequests.php": {
+    "Buttons": {
+      "Close": "Fermer",
+      "GoBack": "Retour",
+      "Reset": "Réinitialiser",
+      "Send": "Envoyer"
+    },
+    "Form": {
+      "BooksRequests": "Identifiant(s) du(des) livre(s) demandé(s)",
+      "BooksRequestsExample": "ABC-123, ABC-123",
+      "DeviceRequest": "Identifiant de l'appareil demandé",
+      "DeviceRequestsExample": "ABC-123",
+      "Email": "Courrier électronique",
+      "StudentData": "Données de l'étudiant",
+      "StudentEmail": "Courrier électronique de l'étudiant",
+      "StudentFullName": "Nom et prénom de l'étudiant",
+      "TeacherData": "Données de l'enseignant",
+      "TextArea": "Message",
+      "Username": "Nom d'utilisateur",
+      "UserFullName": "Nom et prénom"
+    },
+    "H1": {
+      "Solicit": "Faire une demande"
+    },
+    "InvalidFeedback": {
+      "Email": "Adresse e-mail invalide !",
+      "Format": "Format invalide !",
+      "TextArea": "Le champ ne peut pas être vide !",
+      "UserFullName": "Nom et prénom invalides !",
+      "Username": "Nom d'utilisateur invalide !"
+    },
+    "ThrowModal": {
+      "Confirm": "Confirmation",
+      "RequestNotSent": "La demande n'a pas été envoyée ! Veuillez réessayer ultérieurement.",
+      "RequestSent": "La demande a été envoyée avec succès !"
+    },
+    "Title": "Demande"
+  },
+  "UsersControl.php": {
+    "Buttons": {
+      "Activate": "Activer",
+      "Close": "Fermer",
+      "Create": "Créer",
+      "Deactivate": "Désactiver",
+      "Delete": "Supprimer",
+      "Edit": "Modifier",
+      "GoBack": "Retour",
+      "Reset": "Réinitialiser"
+    },
+    "Form": {
+      "ConfirmPassword": "Confirmer le mot de passe",
+      "Email": "Adresse e-mail",
+      "Password": "Mot de passe",
+      "Ul": {
+        "LowerCaseLetters": "Lettres minuscules",
+        "MinLength": "Minimum 8 caractères",
+        "Numbers": "Nombres",
+        "UpperCaseLetters": "Lettres majuscules"
+      },
+      "UserFullName": "Nom complet de l'utilisateur",
+      "Username": "Nom d'utilisateur"
+    },
+    "H1": {
+      "UsersControl": "Contrôle des utilisateurs"
+    },
+    "InvalidFeedback": {
+      "ConfirmPassword": "Les mots de passe ne correspondent pas !",
+      "Email": "Adresse e-mail invalide !",
+      "UserFullName": "Nom complet invalide !",
+      "Username": "Nom d'utilisateur invalide !"
+    },
+    "Search": "Rechercher",
+    "Table": {
+      "Edit": "Modifier",
+      "EditModal": {
+        "Edit": "Modifier",
+        "EditUserEmail": "Adresse e-mail",
+        "EditUserFullName": "Nom complet de l'utilisateur",
+        "EditUsername": "Nom d'utilisateur",
+        "NewPassword": "Nouveau mot de passe"
+      },
+      "Email": "Adresse e-mail",
+      "Number": "Numéro",
+      "Password": "Mot de passe",
+      "State": "État",
+      "States": {
+        "Activated": "Activé",
+        "Deactivated": "Désactivé"
+      },
+      "UserFullName": "Nom complet de l'utilisateur",
+      "Username": "Nom d'utilisateur"
+    },
+    "ThrowModal": {
+      "AccountActivated": "Le compte a été activé avec succès !",
+      "AccountDeactivated": "Le compte a été désactivé avec succès !",
+      "AccountNotActivated": "Le compte n'a pas été activé ! Veuillez réessayer ultérieurement.",
+      "AccountNotDeactivated": "Le compte n'a pas été désactivé ! Veuillez réessayer ultérieurement.",
+      "Confirm": "Confirmation",
+      "LoadUsersError": "Une erreur s'est produite lors du chargement des utilisateurs ! Veuillez réessayer ultérieurement.",
+      "NoUsers": "Aucun utilisateur !",
+      "UserCreatedAndEmailSent": "L'utilisateur a été créé avec succès !\nCourrier envoyé.",
+      "UserCreatedOnly": "L'utilisateur a été créé avec succès !\nCourrier non envoyé.",
+      "UserDeleted": "L'utilisateur a été supprimé avec succès !",
+      "UserEditedAndEmailSent": "L'utilisateur a été modifié avec succès !\nCourrier envoyé.",
+      "UserEditedOnly": "L'utilisateur a été modifié avec succès !\nCourrier non envoyé.",
+      "UserEmailTaken": "L'adresse e-mail est déjà utilisée.",
+      "UserFullNameTaken": "Le nom complet de l'utilisateur est déjà utilisé.",
+      "UserNotCreated": "L'utilisateur n'a pas été créé ! Veuillez réessayer ultérieurement.",
+      "UserNotDeleted": "L'utilisateur n'a pas été supprimé ! Veuillez réessayer ultérieurement.",
+      "UserNotEdited": "L'utilisateur n'a pas été modifié ! Veuillez réessayer ultérieurement.",
+      "UsernameTaken": "Le nom d'utilisateur est déjà utilisé."
+    },
+    "Title": "Contrôle des utilisateurs",
+    "Ul": {
+      "RegisterNewUser": "Enregistrer un nouvel utilisateur",
+      "ShowUsers": "Afficher les utilisateurs"
+    }
+  }
+}

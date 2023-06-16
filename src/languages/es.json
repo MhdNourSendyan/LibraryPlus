@@ -1,0 +1,392 @@
+{
+  "Footer.php": {
+    "Copyright": "© Derechos de autor 2023",
+    "MadeBy": "Hecho por"
+  },
+  "GeneratePdf.php": {
+    "errors": {
+      "EmailNotSend": "¡No se ha enviado el correo! Por favor, inténtelo de nuevo más tarde.",
+      "PdfNotGenerated": "¡Ha ocurrido un error al generar el PDF! Por favor, inténtelo de nuevo más tarde."
+    },
+    "Footer": {
+      "Page": "Página"
+    },
+    "Main": {
+      "AdminSignature": "Firma del administrador",
+      "BookRequests": "Libros solicitados",
+      "BookRequestsTable": {
+        "Author": "Autor",
+        "Book": "Libro",
+        "Editorial": "Editorial",
+        "Identifier": "Identificador",
+        "NotAvailable": "No disponible",
+        "Quantity": "Cantidad"
+      },
+      "BooksRequests": "Identificador/es del/de los libro/s solicitados",
+      "DateAndTimeRequest": "Fecha y hora de la solicitud",
+      "DeviceRequest": "Identificador del dispositivo solicitado",
+      "DevicesRequests": "Dispositivos solicitados",
+      "DevicesRequestsTable": {
+        "Device": "Dispositivo",
+        "Identifier": "Identificador",
+        "NotAvailable": "No disponible",
+        "Quantity": "Cantidad"
+      },
+      "Document": "Justificante de préstamo",
+      "Message": "Mensaje",
+      "PickUpDate": "Fecha de recogida",
+      "RequestNumber": "Número de solicitud",
+      "ReturnDate": "Fecha de devolución",
+      "StudentEmail": "Correo electrónico del alumno",
+      "StudentFullName": "Nombre y apellidos del alumno",
+      "StudentSignature": "Firma del alumno",
+      "TeacherSignature": "Firma del/de la profesor/a",
+      "UserEmail": "Correo electrónico del usuario",
+      "UserFullName": "Nombre y apellidos del usuario",
+      "Username": "Nombre de usuario"
+    }
+  },
+  "Header.php": {
+    "H1": {
+      "Welcome": "Bienvenido"
+    },
+    "Nav": {
+      "ContactTheAdministrator": "Contactar al administrador",
+      "Logout": "Cerrar sesión",
+      "Main": "Principal",
+      "Messages": "Mensajes",
+      "Request": "Solicitudes",
+      "Solicit": "Solicitar",
+      "UsersControl": "Control de usuarios"
+    }
+  },
+  "Index.php": {
+    "Buttons": {
+      "Close": "Cerrar",
+      "Login": "Iniciar sesión",
+      "Reset": "Limpiar"
+    },
+    "Login": "Inicio de sesión",
+    "Password": "Contraseña",
+    "ThrowModal": {
+      "AccountNotActivated": "¡Tu cuenta está deshabilitada!",
+      "CatchError": "¡Ha ocurrido un error! Por favor, inténtelo de nuevo más tarde.",
+      "Confirm": "Mensaje de confirmación",
+      "InvalidLogIn": "El usuario y/o la contraseña son incorrectos."
+    },
+    "Username": "Nombre de usuario"
+  },
+  "Main.php": {
+    "Buttons": {
+      "Add": "Agregar",
+      "Close": "Cerrar",
+      "Delete": "Eliminar",
+      "Edit": "Editar",
+      "GoBack": "Volver",
+      "Reset": "Limpiar"
+    },
+    "Books": {
+      "AddBook": {
+        "AddBooks": "Cargar libros desde CSV",
+        "AddNewBook": "Agregar libros",
+        "NewBookAuthor": "Autor del libro",
+        "NewBookEditorial": "Editorial del libro",
+        "NewBookIdentifier": "Identificador del libro",
+        "NewBookName": "Nombre del libro",
+        "NewBookQuantity": "Cantidad del libro"
+      },
+      "Search": "Buscar libros",
+      "Table": {
+        "Author": "Autor",
+        "Book": "Libro",
+        "Edit": "Editar",
+        "EditModal": {
+          "Edit": "Editar",
+          "EditBookAuthor": "Autor del libro",
+          "EditBookEditorial": "Editorial del libro",
+          "EditBookIdentifier": "Identificador del libro",
+          "EditBookName": "Nombre del libro",
+          "EditBookQuantity": "Cantidad del libro"
+        },
+        "Editorial": "Editorial",
+        "Identifier": "Identificador",
+        "NotAvailable": "No disponible",
+        "Quantity": "Cantidad"
+      }
+    },
+    "Devices": {
+      "AddDevice": {
+        "AddDevices": "Cargar dispositivos desde CSV",
+        "AddNewDevice": "Agregar dispositivos",
+        "NewDeviceDescription": "Descripción del dispositivo",
+        "NewDeviceIdentifier": "Identificador del dispositivo",
+        "NewDeviceName": "Nombre del dispositivo",
+        "NewDeviceQuantity": "Cantidad del dispositivo"
+      },
+      "Search": "Buscar dispositivos",
+      "Table": {
+        "Description": "Descripción",
+        "Device": "Dispositivo",
+        "Edit": "Editar",
+        "EditModal": {
+          "Edit": "Editar",
+          "EditDeviceDescription": "Descripción del dispositivo",
+          "EditDeviceIdentifier": "Identificador del dispositivo",
+          "EditDeviceName": "Nombre del dispositivo",
+          "EditDeviceQuantity": "Cantidad del dispositivo"
+        },
+        "Identifier": "Identificador",
+        "NotAvailable": "No disponible",
+        "Quantity": "Cantidad"
+      }
+    },
+    "H1": {
+      "Books": "Libros",
+      "Devices": "Dispositivos"
+    },
+    "ThrowModal": {
+      "BookAdded": "¡El libro ha sido agregado correctamente!",
+      "BookDeleted": "¡El libro ha sido eliminado correctamente!",
+      "BookEdited": "¡El libro ha sido editado correctamente!",
+      "BookNotAdded": "¡El libro no ha sido agregado! Por favor, inténtelo de nuevo más tarde.",
+      "BookNotDeleted": "¡El libro no ha sido eliminado! Por favor, inténtelo de nuevo más tarde.",
+      "BookNotEdited": "¡El libro no ha sido editado! Por favor, inténtelo de nuevo más tarde.",
+      "BookNotEditedDuplicateIdentifier": "¡El libro no ha sido editado! Identificador duplicado.",
+      "BookQuantityCantBeNegative": "¡La cantidad del libro no puede ser negativa!",
+      "BooksAdded": "¡Los libros han sido insertados correctamente!",
+      "BooksNotAdded": "¡Los libros no han sido agregados! Por favor, inténtelo de nuevo más tarde.",
+      "DeviceAdded": "¡El dispositivo ha sido agregado correctamente!",
+      "DeviceDeleted": "¡El dispositivo ha sido eliminado correctamente!",
+      "DeviceEdited": "¡El dispositivo ha sido editado correctamente!",
+      "DeviceNotAdded": "¡El dispositivo no ha sido agregado! Por favor, inténtelo de nuevo más tarde.",
+      "DeviceNotDeleted": "¡El dispositivo no ha sido eliminado! Por favor, inténtelo de nuevo más tarde.",
+      "DeviceNotEdited": "¡El dispositivo no ha sido editado! Por favor, inténtelo de nuevo más tarde.",
+      "DeviceNotEditedDuplicateIdentifier": "¡El dispositivo no ha sido editado! Identificador duplicado.",
+      "DeviceQuantityCantBeNegative": "¡La cantidad del dispositivo no puede ser negativa!",
+      "DevicesAdded": "¡Los dispositivos han sido insertados correctamente!",
+      "DevicesNotAdded": "¡Los dispositivos no han sido agregados! Por favor, inténtelo de nuevo más tarde.",
+      "DuplicateBookIdentifier": "¡Los libros no han sido agregados! Identificador duplicado.",
+      "DuplicateDeviceIdentifier": "¡Los dispositivos no han sido agregados! Identificador duplicado.",
+      "FileBadFormatted": "¡El archivo no tiene el formato correcto!",
+      "FileNotOpened": "¡No se pudo abrir el archivo! Por favor, inténtelo de nuevo más tarde.",
+      "LoadBooksError": "¡Ha ocurrido un error al cargar los libros! Por favor, inténtelo de nuevo más tarde.",
+      "LoadDevicesError": "¡Ha ocurrido un error al cargar los dispositivos! Por favor, inténtelo de nuevo más tarde.",
+      "NoBooks": "¡No hay libros!",
+      "NoDevices": "¡No hay dispositivos!",
+      "Confirm": "Mensaje de confirmación"
+    },
+    "Title": "Principal"
+  },
+  "Messages.php": {
+    "Buttons": {
+      "Close": "Cerrar",
+      "Delete": "Eliminar",
+      "GoBack": "Volver"
+    },
+    "Card": {
+      "Message": "Mensaje",
+      "Number": "Número",
+      "Request": "Solicitud",
+      "UserEmail": "Correo electrónico del usuario",
+      "UserFullName": "Nombre y apellidos del usuario",
+      "Username": "Nombre de usuario"
+    },
+    "H1": {
+      "Messages": "Mensajes"
+    },
+    "Search": "Buscar mensajes",
+    "ThrowModal": {
+      "Confirm": "Confirmación",
+      "ConfirmDelete": "¿Estás seguro de que deseas eliminar el mensaje?",
+      "LoadMessagesError": "¡Ha ocurrido un error al cargar los mensajes! Por favor, inténtelo de nuevo más tarde.",
+      "MessageDeleted": "¡El mensaje ha sido eliminado correctamente!",
+      "MessageNotDeleted": "¡El mensaje no ha sido eliminado! Por favor, inténtelo de nuevo más tarde.",
+      "NoMessages": "¡No hay mensajes!"
+    },
+    "Title": "Mensajes"
+  },
+  "Requests.php": {
+    "Buttons": {
+      "Close": "Cerrar",
+      "Delete": "Eliminar",
+      "GoBack": "Volver"
+    },
+    "Card": {
+      "BooksRequests": "Identificador/es del/de los libro/s solicitados",
+      "DeviceRequest": "Identificador del dispositivo solicitado",
+      "Message": "Mensaje",
+      "Number": "Número",
+      "StudentEmail": "Correo electrónico del alumno",
+      "StudentFullName": "Nombre y apellidos del alumno",
+      "UserEmail": "Correo electrónico del usuario",
+      "UserFullName": "Nombre y apellidos del usuario",
+      "Username": "Nombre de usuario"
+    },
+    "H1": {
+      "Requests": "Solicitudes"
+    },
+    "Search": "Buscar solicitudes",
+    "ThrowModal": {
+      "Confirm": "Confirmación",
+      "ConfirmDelete": "¿Estás seguro de que deseas eliminar la solicitud?",
+      "LoadRequestsError": "¡Ha ocurrido un error al cargar las solicitudes! Por favor, inténtelo de nuevo más tarde.",
+      "NoRequests": "¡No hay solicitudes!",
+      "RequestDeleted": "¡La solicitud ha sido eliminada correctamente!",
+      "RequestNotDeleted": "¡La solicitud no ha sido eliminada! Por favor, inténtelo de nuevo más tarde."
+    },
+    "Title": "Solicitudes"
+  },
+  "sendMessages.php": {
+    "Buttons": {
+      "Close": "Cerrar",
+      "GoBack": "Volver",
+      "Reset": "Limpiar",
+      "Send": "Enviar"
+    },
+    "Form": {
+      "Email": "Correo electrónico",
+      "Select": {
+        "0": "Seleccionar",
+        "1": "Cambiar nombre de usuario",
+        "2": "Cambiar correo",
+        "3": "Cambiar contraseña",
+        "4": "Otro",
+        "Select": "Seleccionar"
+      },
+      "TextArea": "Mensaje",
+      "Username": "Nombre de usuario",
+      "UserFullName": "Nombre y apellidos"
+    },
+    "H1": {
+      "ContactTheAdministrator": "Contactar con el administrador"
+    },
+    "InvalidFeedback": {
+      "Select": "¡Selecciona una opción!",
+      "TextArea": "¡El campo no puede estar vacío!"
+    },
+    "ThrowModal": {
+      "Confirm": "Confirmación",
+      "MessageNotSent": "¡El mensaje no ha sido enviado! Por favor, inténtelo de nuevo más tarde.",
+      "MessageSent": "¡El mensaje ha sido enviado correctamente!"
+    },
+    "Title": "Contacto"
+  },
+  "sendRequests.php": {
+    "Buttons": {
+      "Close": "Cerrar",
+      "GoBack": "Volver",
+      "Reset": "Limpiar",
+      "Send": "Enviar"
+    },
+    "Form": {
+      "BooksRequests": "Identificador/es del/de los libro/s solicitados",
+      "BooksRequestsExample": "ABC-123, ABC-123",
+      "DeviceRequest": "Identificador del dispositivo solicitado",
+      "DeviceRequestsExample": "ABC-123",
+      "Email": "Correo electrónico",
+      "StudentData": "Datos del alumno",
+      "StudentEmail": "Correo electrónico del alumno",
+      "StudentFullName": "Nombre y apellidos del alumno",
+      "TeacherData": "Datos del profesor",
+      "TextArea": "Mensaje",
+      "Username": "Nombre de usuario",
+      "UserFullName": "Nombre y apellidos"
+    },
+    "H1": {
+      "Solicit": "Hacer una solicitud"
+    },
+    "InvalidFeedback": {
+      "Email": "¡Correo inválido!",
+      "Format": "¡Formato inválido!",
+      "TextArea": "¡El campo no puede estar vacío!",
+      "UserFullName": "¡Nombre y apellidos inválidos!",
+      "Username": "¡Nombre de usuario inválido!"
+    },
+    "ThrowModal": {
+      "Confirm": "Confirmación",
+      "RequestNotSent": "¡La solicitud no ha sido enviada! Por favor, inténtelo de nuevo más tarde.",
+      "RequestSent": "¡La solicitud ha sido enviada correctamente!"
+    },
+    "Title": "Solicitud"
+  },
+  "UsersControl.php": {
+    "Buttons": {
+      "Activate": "Activar",
+      "Close": "Cerrar",
+      "Create": "Crear",
+      "Deactivate": "Desactivar",
+      "Delete": "Eliminar",
+      "Edit": "Editar",
+      "GoBack": "Volver",
+      "Reset": "Limpiar"
+    },
+    "Form": {
+      "ConfirmPassword": "Confirmar contraseña",
+      "Email": "Correo electrónico",
+      "Password": "Contraseña",
+      "Ul": {
+        "LowerCaseLetters": "Letras minúsculas",
+        "MinLength": "Mínimo 8 caracteres",
+        "Numbers": "Números",
+        "UpperCaseLetters": "Letras mayúsculas"
+      },
+      "UserFullName": "Nombre y apellidos del usuario",
+      "Username": "Nombre de usuario"
+    },
+    "H1": {
+      "UsersControl": "Control de usuarios"
+    },
+    "InvalidFeedback": {
+      "ConfirmPassword": "¡Las contraseñas no coinciden!",
+      "Email": "¡Correo electrónico inválido!",
+      "UserFullName": "¡Nombre y apellidos inválidos!",
+      "Username": "¡Nombre de usuario inválido!"
+    },
+    "Search": "Buscar",
+    "Table": {
+      "Edit": "Editar",
+      "EditModal": {
+        "Edit": "Editar",
+        "EditUserEmail": "Correo electrónico",
+        "EditUserFullName": "Nombre y apellidos del usuario",
+        "EditUsername": "Nombre de usuario",
+        "NewPassword": "Nueva contraseña"
+      },
+      "Email": "Correo electrónico",
+      "Number": "Número",
+      "Password": "Contraseña",
+      "State": "Estado",
+      "States": {
+        "Activated": "Activada",
+        "Deactivated": "Desactivada"
+      },
+      "UserFullName": "Nombre y apellidos del usuario",
+      "Username": "Nombre de usuario"
+    },
+    "ThrowModal": {
+      "AccountActivated": "¡La cuenta ha sido activada correctamente!",
+      "AccountDeactivated": "¡La cuenta ha sido desactivada correctamente!",
+      "AccountNotActivated": "¡La cuenta no ha sido activada! Por favor, inténtelo de nuevo más tarde.",
+      "AccountNotDeactivated": "¡La cuenta no ha sido desactivada! Por favor, inténtelo de nuevo más tarde.",
+      "Confirm": "Confirmación",
+      "LoadUsersError": "¡Ha ocurrido un error al cargar los usuarios! Por favor, inténtelo de nuevo más tarde.",
+      "NoUsers": "¡No hay usuarios!",
+      "UserCreatedAndEmailSent": "¡El usuario ha sido creado correctamente!\nCorreo enviado.",
+      "UserCreatedOnly": "¡El usuario ha sido creado correctamente!\nCorreo no enviado.",
+      "UserDeleted": "¡El usuario ha sido eliminado correctamente!",
+      "UserEditedAndEmailSent": "¡El usuario ha sido editado correctamente!\nCorreo enviado.",
+      "UserEditedOnly": "¡El usuario ha sido editado correctamente!\nCorreo no enviado.",
+      "UserEmailTaken": "El correo electrónico ya está en uso.",
+      "UserFullNameTaken": "El nombre completo de usuario ya está en uso.",
+      "UserNotCreated": "¡El usuario no ha sido creado! Por favor, inténtelo de nuevo más tarde.",
+      "UserNotDeleted": "¡El usuario no ha sido eliminado! Por favor, inténtelo de nuevo más tarde.",
+      "UserNotEdited": "¡El usuario no ha sido editado! Por favor, inténtelo de nuevo más tarde.",
+      "UsernameTaken": "El nombre de usuario ya está en uso."
+    },
+    "Title": "Control de usuarios",
+    "Ul": {
+      "RegisterNewUser": "Registrar nuevo usuario",
+      "ShowUsers": "Ver usuarios"
+    }
+  }
+}

@@ -1,0 +1,135 @@
+Identificador,Título,Autor,Editorial,Cantidad
+BD-1,SQL - Para usuarios y programadores,J. Benabides...,Paraninfo,0
+BD-2,Bases de datos,Miguel A. Rodríguez,MacGrawHill,0
+BD-4,Diseño y gestión de Bases de Datos,Angel Lucas Gómez,Paraninfo,0
+BD-10,Diseño y uso de Bases de Datos Relacionales,Irene Luque&#44; M.A. Gómez-Nieto,Ra-Ma,0
+BD-14,Sistemas Gestores de Bases de Datos,Gregorio Cabrera,Paraninfo,0
+BD-20,Fundamentos de Bases de Datos,Henry F.Korth,MacGrawHill,0
+BD-28,Operaciones con BD Ofimáticas y Corporativas,Ramos Martín,Paraninfo,0
+BD-29,Gestión de Bases de Datos,Postigo,Paraninfo,1
+BD-201,ORACLE: Arquitectura&#44; Administración y Optimización,H.Shime,Diaz de Santos,0
+BD-202,ORACLE 7: Manual de referencia,George Koch,McGrawFill,0
+BD-203,ORACLE: Manual de administrador,Kevin Loney,ORACLE Press,0
+BD-204,Manual de ORACLE Designer/2000,Dr. Paul Dorsey,ORACLE Press,0
+BD-205,ORACLE 8: Guía de Aprendizaje,Micharl Abbey,ORACLE Press,0
+BD-206,ORACLE 8: Programación PL/SQL,Scott Urman,ORACLE Press,0
+BD-220,ORACLE 8: Manual del administrador,Kevin Loney,ORACLE Press,0
+BD-221,ORACLE Developer,Peter Koletzke,ORACLE Press,0
+BD-228,ORACLE8i: Desarrollo de soluciones Web,Bradley de Tusc,ORACLE Press,0
+BD-229,Manual de ORACLE JDeveloper 3,Dr. Paul Dorsey,ORACLE Press,0
+HW-1,Montaje y mantenimiento de equipo,Moreno Pérez,Síntesis,3
+INF-1,Diccionario Conceptual de Informática y Comunicaciones,Rincón&#44; Plágaro,Paraninfo,1
+INF-2,Estructura de la información,García de Sola,McGrawHill,1
+INF-13,Aprendizaje y Ordenador,Alonso&#44; Gallego,Dykinson,1
+INF-20,Matemáticas Especiales para Computación,García,McGrawHill,1
+INF-21,Estadística Descriptiva,Fernández ,ESIC,1
+INF-22,Tecnlogía de la Información y la Comunicacion I,Gómez&#44; Parramón,Ed. Donostiarra,1
+OFI-1,Aplicaciones Ofimáticas,Ruiz&#44; Rubio...,McGrawHill,2
+OFI-2,Aplicaciones Ofimáticas,Chueca&#44; Caballero...,MacMillan Profesional,1
+OFI-3,Aplicaciones Ofimáticas - Cuaderno de Actividades,Chueca&#44; Caballero...,MacMillan Profesional,1
+OFI-4,Aplicaciones Ofimáticas,Moro,Paraninfo,2
+OFI-5,Aplicaciones Ofimáticas,Aguilera&#44; Morante...,Editex,3
+OFI-6,"Implantación y Mantenimiento de Aplicaciones Ofimáticas y Corporativas",Ostra&#44; Albert...,McGrawHill,1
+OFI-7,Implantacion de Aplicaciones Informáticas de Gestión,Oliva,Paraninfo,1
+OFI-200,Excel 2013,Charte,Anaya,1
+OFI-201,Hoja de Cálculo - Nivel Inicial,Calvo,Bruño,1
+OFI-202,Hoja de Cálculo - Nivel Inicial 1,Calvo,Bruño,1
+OFI-203,Hoja de Cálculo - Nivel Avanzado 2,Calvo,Bruño,1
+OFI-400,Programación Avanzada Access 97,Scott Barker,Prentice Hall,1
+PRO-1,Estructura de Datos y Algoritmos,Hernández&#44; Lázaro...,PrenticeHall,1
+PRO-2,Fundamentos de Programación,Carretero&#44; García...,Paraninfo,1
+PRO-3,Metodología de la Programación: Programación Estructurada,Alonso&#44; Rumeu,Paraninfo,1
+PRO-6,8088-8086/8087 - Programación Ensamblador en entorno MS DOS,Rodríguez-Roselló,Anaya,1
+PRO-21,Programacion y diseño en entornos gráficos,Chamorroo&#44; Molina...,McGrawHill,2
+PRO-27,Metodología de la Programación,Alcalde&#44; García,McGrawHill,1
+PRO-30,Fundamentos de Programación,Pérez&#44; Cubillo...,Santillana Profesional,1
+PRO-38,Programacion en Lenguajes Estructurados,Quero,Paraninfo,1
+PRO-39,Técnicas de Programación,Gallego,McGrawHill,1
+PRO-41,Programación Estructurada y fundamentos de programación,Sánchez&#44; Chamorro...,McGrawHill,2
+PRO-45,POO con Implementación de Soluciones a partir del diseño,Plan Formación 2005,CAM,1
+PRO-49,"Desarrollo de Funciones en el Sistema Informático con Linux ",Chamorro&#44; Molina...,McGrawHill,1
+PRO-50,"Desarrollo de Funciones en el Sistema Informático con Linux - Guía Didáctica",Chamorro&#44; Molina...,McGrawHill,2
+PRO-51,Programación de Servicios y Procesos,Paniagua,Paraninfo,1
+PRO-52,Programación de Servicios y Procesos,Cortijo,Síntesis,1
+PRO-53,Programación de Servicios y Procesos,Carnero,Marcombo,1
+PRO-200,Aplique Turbo C++,Schildt,McGrawHill,1
+PRO-201,Manual de Borland C++,Murray&#44; Pappas,McGrawHill,1
+PRO-202,POO en C++,Devis,Paraninfo,1
+PRO-203,El lenguaje de Programación C,García&#44; Carretero...,PrenticeHall,1
+PRO-400,El libro de Visual Basic .NET,Evjen&#44; Beres,Anaya,1
+PRO-401,Visual Basic .NET,Serrano,Anaya,1
+PRO-402,El libro de Visual Basic Versión 4,Webb&#44; McKelvy,Anaya,1
+PRO-403,Programación con Visual Basic 6,Charte,Anaya,1
+PRO-404,Introducing Microsoft .NET,Platt,Microsoft,1
+PRO-600,Cómo programar en JAVA,Deitel y Deitel,PrenticeHall,1
+PRO-700,Desarrollo de Interfaces,García-Miguel...,Síntesis,1
+PRO-701,Desarrollo de Interfaces (Guía del profesor),Ferrer,Ra-Ma,1
+PRO-702,Desarrollo de Interfaces,Vicente,Garceta,1
+PRO-800,Análisis y diseño detallo de Aplicaciones Informáticas de Gestión,Piatinni,Ra-Ma,2
+PRO-801,Análisis y diseño detallo de Aplicaciones Informáticas de Gestión,Cabrera,McGrawHill,2
+PRO-802,Análisis y diseño detallo de Aplicaciones Informáticas de Gestión -Guía,Cabrera,McGrawHill,1
+PRO-803,Entornos de Desarrollo,Ramos,Garceta,1
+PRO-804,"Desarrollo de Aplicaciones en Entorno de 4 Generación y con Herramientas CASE",Ramos,McGrawHill,1
+PRO-805,Técnicas de Organización y Análisis de Sistemas,Rodríguez,McGrawHill,1
+PRO-806,Entornos de Desarrollo,Moreno,Síntesis,1
+PRO-807,Entornos de Desarrollo,Casado,Ra-Ma,1
+PRO-808,UML gota a gota,Fowler&#44; Scott,AddisonWesley,1
+PRO-809,Entornos de Desarrollo,Piñeiro,Paraninfo,1
+PRO-1000,Programación COBOL - Algoritmos Estructurado,García&#44; Cerro...,McGrawHill,1
+PRO-1001,COBOL estrucrturado,Phipillakis,McGrawHill,1
+RED-1,Redes de Área Local,J.C Parrilla - J.J Rubio,Editorial Síntesis,0
+RED-23,Redes de Área Local,Alfredo Abad,McGrawHill,0
+RED-25,Transmisión de datos y redes de comunicaciones,Behrouz A. Forouzan,McGrawHill,0
+RED-26,Comunicaciones y Redes de computadores,William Stallings,Prentice Hall,0
+RED-30,Redes de Área Local,Alfredo Abad,McGrawHill,0
+RED-100,Mantenimiento de Ordenadores en Red de Área Local,Aula mentor,Ministerio Eduación,0
+RED-101,Redes Locales,Joaquín Andreu,Editex,0
+RED-102,Redes ATM,Luis Guijarro,Ra-Ma,0
+RED-103,Conceptos y protocolos de enrutaminto,Allan Johnson,Cisco Press,0
+RED-104,Aspectos básicos de networking,Antoon W.Rufi...,Cisco Press,0
+RED-201,Servicios en Red,Román Carceller...,MacMillan,0
+RED-202,Internetworking y Servicios de Internet,Libro Azul 2005,Conserjería Educación,0
+RED-203,Servicios en Red,Elvira Mifsud...,McGrawHill,0
+RED-204,Servicios en Red,Joaquin Andreu,Editex,0
+RED-205,Instalación y Mantenimiento de Servicios de Internet,Elvira Mifsud...,McGrawHill,0
+RED-206,Instalación y Mantenimiento de Servicios de Redes Locales,Alfredo Abad,McGrawHill,0
+RED-207,Servicios de Red e Internet,García&#44; González...,Garcerta,0
+RED-401,Seguridad Informática,Purificación Aguilera,Editex,0
+RED-402,La biblia del Hacker Edición 2006,Justo Pérez...,Anaya,2
+RED-403,Seguridad Informática,César Seoane...,McGrawHill,0
+RED-404,Seguridad y Alta Disponibilidad,Abad Domingo,Garceta,1
+SO-1,Sistemas Operativos Modernos,Tanembaum,PrenticeHall,1
+SO-2,Sistemas Operativos Monousuario y Multiusuario,Muñoz López,McGrawHill,1
+SO-3,Sistemas Operativos en Red,Muñoz López,McGrawHill,2
+SO-4,Sistemas Operativos Monopuesto,Alegre Ramos,Paraninfo,1
+SO-5,Sistemas Operativos Monopuesto,Muñoz López,McGrawHill,2
+SO-6,Sistemas Operativos Monopuesto,Niño,Editex,1
+SO-7,Sistemas Informáticos Multiusuario y en Red - Guía Profesor,Raya&#44; Santos...,Ra-Ma,1
+SO-8,Sistemas Operativos Monousuario y Multiusuario,Muñoz López&#44; Benítez...,McGrawHill,1
+SO-9,Introducción a los Sistemas Operativos,Alcalde&#44; Morera...,McGrawHill,2
+SO-10,Sistemas Operativos Conceptos y Diseño,Milenkovic,McGrawHill,1
+SO-11,Sistemas Operativos y Compiladores,Salas,McGrawHill,1
+SO-12,Sistemas Informáticos Multiusuario y en Red,Muñoz,McGrawHill,1
+SO-13,Sistemas Informáticos Multiusuario y en Red,Cerrato&#44; Jarillo...,McGrawHill,3
+SO-14,Instalación y Mantenimiento de equipos y sistemas informáticos,Ramos,McGrawHill,1
+SO-15,Implantación de Sistemas Operativos,Raya,Ra-Ma,1
+SO-16,Implantación de Sistemas Operativos (Guía del profesor),Raya,Ra-Ma,1
+SO-17,Implantación de Sistemas Operativos,López,Garceta,1
+SO-18,Sistemas Operativos Monousuario&#44; Multiusuario y en Red,Muñoz,McGrawHill,1
+SO-19,Sistemas Informáticos Multiusuario y en Red,Peña&#44; Moreno&#44;...,Paraninfo,1
+SO-20,Sistemas Operativos en Red,Romero,Macmillan,1
+SO-201,UNIX Programación Avanzada,Fco. Manuel Márquez,Ra-Ma,1
+SO-220,UNIX Sistema V Versión 4,Rosen&#44; Rosinski...,McGrawHill,1
+SO-440,Aprendiendo a trabajar con LINUX,Ball,InforBooks Ediciones,1
+SO-441,Administración de Sistemas Operativos LINUX,Formación Prof 2016,Comunidad de Madrid,1
+SO-442,Linux. Preparación para la certificación LPIC-2,Bobillier,Eni,1
+SO-604,Windows PowerShell,Petitjean,Eni,1
+WEB-1,Mantenimiento de portales en Internet,Munté,INFORBOOK's,1
+WEB-2,Implantación de Aplicaciones Web,Ferrer,Ra-Ma,1
+WEB-3,Aplicaciones Web,Ramos,Paraninfo,2
+WEB-4,"Diseño y Realización de Servicios de Presentación
+WEB-en Entornos Gráficos",Quero&#44; Rubio,Paraninfo,2
+WEB-5,Mantenimiento de portales de la Información,Quero&#44; García,Paraninfo,1
+WEB-6,Despliegue de Aplicaciones Web,Muñoz Carmona,Síntesis,1
+WEB-200,HTML con XHTML y CSS,Castro,Anaya,1
+WEB-300,Desarrollo Web en Entorno Servidor,López&#44; Vara,Ra-Ma,1
